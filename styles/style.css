@@ -1,0 +1,737 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+ display: flex;
+ height: 70px;
+background-color: #191326;
+justify-content: space-around;  
+ }
+ 
+ nav ul{
+ display: flex;
+ font-size: 20px;
+ align-items: center;
+ list-style: none; 
+ margin-top:23px ;    
+ }
+
+a{   
+color: #fff;
+margin-left: 20px;
+text-decoration: none;
+ }
+ 
+ .boton{
+    margin-left: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+   background: linear-gradient(to right,#774AD9,#595FD9,#187FD9, #118CD9);
+ }
+ .hermanos{
+   display: flex;
+ }
+ .hermano1{
+    background-color: #201d3b;
+    width: 50%;
+    color: #fff;
+    height: 650px;
+ }
+
+ h2{
+    text-align: center;
+    width: 90px;
+   font-size: 80px;
+    margin-left:30%;
+    padding-top:20% ;
+
+ }
+ .parra{
+   margin-top: 30px;
+  width:70%;
+  margin-left: 30%;
+ }
+.milu{
+   margin-top: 30px;
+  width:31%;
+  margin-left: 30%; 
+  border: 1px solid rgb(194, 186, 186);
+  padding: 5px;
+  border-radius: 4px;
+}
+.man1{
+   border-radius: 5px;
+   padding: 12px;
+   border: none;
+   color: rgb(219, 0, 121);
+}
+.man2{
+   border-radius: 5px;
+   padding: 12px;
+   border: 1px solid white;
+   background-color: transparent;
+   color: #fff;
+
+}
+
+.hermano2{
+ background-image: url(../assets/imagenes/hojasFondo.jpg);
+ height: 650px;
+ width: 50%;
+ background-size: cover;
+ 
+}
+
+.lui{
+   margin-left: 13%;
+   width: 25%;
+   margin-top: 15%;
+
+}
+   
+.primito{
+display: flex;
+font-size: 250%;
+}
+h3{
+   margin-left: 65%;
+   margin-top: 3%;
+   color: #D91A96;
+}
+.compu{
+   width: 70%;
+   margin-left: 20%;
+   margin-top:15% ;
+}
+h5{
+   margin-left: 10%;
+    margin-top:19%;
+    color:#8C3A6F;
+
+}
+#parrafito{
+   margin-top: 23px;
+   width: 70%;
+   font-size: 23px;
+   color: #393939;
+}
+ h6{
+   margin-top: 19px;
+   color: #c7248e;
+ }
+ .papa{
+   margin-top: 5%;
+   color: rgb(181, 52, 155);
+   flex-direction: column;
+
+
+
+ }
+ .rama{
+  display: flex ;
+      color: #202020;
+      font-size: 15px;
+      margin-left: 13% ;
+      position: relative;
+       bottom: 20px;
+
+ }
+ #discrimi{
+   color: #000;
+ }
+.centro{
+   margin-top: 3%;
+   margin-left: 30%;
+   width: 40%;
+   color: #fff;
+}
+h4{
+   margin-top: 4%;
+   text-align: center;
+   font-size: 45px;
+   color: #fff;
+}
+article{
+   background-color: #191326;
+   height: 800px;
+ 
+}
+.parrafo{
+   color: #393939;
+}
+.todas{
+   display:flex
+}
+.card {
+   margin-top: 40px;
+   width: 20%;
+   background-color: #fff;
+   border-radius: 10px;
+   height: 550px;
+   margin-left: 15%;
+   
+
+ }
+ .rama1{
+      display: flex ;
+      color: #202020;
+      font-size: 15px;
+      margin-left: 13% ;
+      position: relative;
+      bottom: 20px;
+ 
+ }
+ .rama2{
+  display: flex ;
+  color: #202020;
+  font-size: 15px;
+  margin-left: 13% ;
+  position: relative;
+  bottom: 35px;
+
+}
+ .card-primera{
+   color: #a02481;
+   padding: 10px;
+   text-align: center;
+   font-size: 23px;
+   
+   
+ }
+ .card-titulo{
+  display: flex;
+   padding: 10px;
+   background-color: #ececec;
+   
+ }
+ span{
+  margin-left: 100px;
+  font-size: 30px;
+ }
+ 
+ .cuerpo{
+   margin-top: 5%;
+   color: rgb(181, 52, 155);
+   flex-direction: column;
+   margin-left: 40px;
+ 
+ }
+ .parrafo{
+   margin-right:30px;
+ }
+ .card-footer{
+   margin-top: 20px;
+   padding: 10px 20px;
+   background-color: palevioletred;
+   color: #fff;
+   border-radius: 5px;
+   width: 50%;
+   margin-left: 8%;
+   text-align: center;
+ }
+ 
+ .footer{
+   height: 70px;
+   display: flex;
+   height: 70px;
+  align-items: center;
+  justify-content: space-around;
+
+
+ }
+ .card2 {
+   margin-top: 40px;
+   width: 20%;
+   background-color: #fff;
+   border-radius: 10px;
+   height:550px;
+   margin-left: 5%;
+
+ }
+ .color{
+   color: rgb(85, 83, 83);
+   font-size: 23px;
+   
+ }
+ strong{
+   color: #c7248e;
+  
+ }
+ .cuerpo1{
+   margin-top: 5%;
+   color: rgb(34, 34, 34);
+   flex-direction: column;
+   margin-left: 40px;
+ 
+ }
+
+ 
+ .card-footer1{
+   margin-top: 20px;
+   padding: 10px 20px;
+   background-color: rgb(39, 39, 39);
+   color: #fff;
+   border-radius: 5px;
+   margin-left:5%;
+   width: 50%;
+   text-align: center;
+ 
+
+ }
+ .perto footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height:50px;
+  margin-top: 24px; 
+  
+}
+.iconos{
+display: flex;
+margin-right: 150px;
+color: #393939;
+}
+.icono{
+margin-left: 150px;
+font-size: 20px;
+}
+.pajaro{
+display: flex;
+justify-content: space-between;
+margin-right: 40px;
+ 
+}
+
+
+ @media screen and (max-width:1279px){
+  .milu{
+   width:47%;
+ }
+
+.card {
+  margin-top: 40px;
+  width: 30%;
+  background-color: #fff;
+  border-radius: 10px;
+  height: 550px;
+  margin-left: 2%;
+  
+
+}
+.card2 {
+  margin-top: 40px;
+  width: 30%;
+  background-color: #fff;
+  border-radius: 10px;
+  height: 550px;
+  margin-left: 2%;
+  
+
+}
+article{
+  background-color: #191326;
+  height: 200vh;
+
+}
+
+h5{
+  margin-left: 1%;
+   margin-top:30%;
+
+}
+span{
+  margin-left: 110px;
+
+ }
+ .icono{
+  font-size: 10px;
+}
+.iconos{
+  margin-right: 130px;
+
+  }
+
+ }
+ 
+ @media screen and (max-width:920px){
+  .milu{
+    width:56%;
+  }
+
+  .lui{
+    width: 30%;
+    margin-top: 30%;
+ 
+ }
+ .todas{
+  flex-direction: column;
+  align-items: center;
+  margin-right: 150px;
+}
+ .card {
+  width: 40%;
+  height: 620px;
+}
+.card2 {
+  width: 40%;
+  height: 620px;
+}
+article{
+
+  height: 450vh;
+
+}
+.iconos{
+  margin-right: 10px;
+  }
+
+  
+ h2{
+ font-size: 70px;
+}
+span{
+  margin-left: 90px;
+ }
+
+ } 
+  @media screen and (max-width:768px){
+    .lui{
+      width: 40%;
+      margin-top: 35%;
+   
+   }
+ h2{
+ font-size: 40px;
+}
+.parra{
+ font-size: 14px;
+}
+.milu{
+ width:80%;
+ margin-left: 9%; 
+}
+.man1{
+  padding: 8px;
+
+}
+.man2{
+  padding: 7px;
+}
+ header nav{
+  margin-right: 23px;
+ }
+  nav ul{
+    font-size: 8px;
+
+    }
+    .boton{
+      margin-left:7px;
+      padding:2px;
+      font-size: 10px;
+     
+   }
+  h3{
+    margin-left: 35%;
+ }
+ h5{
+  margin-left: 5%;
+   margin-top:59%;
+   font-size: 23px;
+}
+#parrafito{
+  font-size: 15px;
+
+}
+h6{
+  font-size: 20px;
+}
+
+
+.rama2{
+  font-size: 8px;
+  margin-left: 27% ;  
+}
+.card {
+  width: 80%;
+  margin-left: 110px;
+  height: 600px;
+}
+
+.card2 {
+  width: 80%;
+  margin-left: 110px;
+  height: 600px;
+
+}
+article{
+  height:470vh;
+  
+
+}
+.perto footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height:50px;
+  margin-top: 24px; 
+  
+}
+.iconos{
+display: flex;
+margin-left: 80px;
+color: #393939;
+}
+span{
+  margin-left: 95px;
+ }
+
+}
+
+@media screen and (maxn-width:768px){
+  #logo{
+    width: 85px;
+    margin-top: 15px;
+  }
+  .lui{
+    width: 45%;
+    margin-top: 40%;
+ 
+ }
+ header nav{
+  margin-right: 23px;
+ }
+  nav ul{
+    font-size: 8px;
+
+    }
+    .boton{
+      margin-left:7px;
+      padding:2px;
+      font-size: 10px;
+     
+   }
+
+ h2{
+  font-size: 30px;
+ }
+ .parra{
+  font-size: 12px;
+ }
+ 
+ .man1{
+   font-size:7px;
+ 
+ }
+ .man2{
+ 
+   font-size: 7px;
+ }
+
+  h3{
+    margin-left: 8%;
+    font-size: 42px;
+ }
+ h5{
+  margin-right:10;
+   font-size: 15px;
+   margin-top: 100px;
+   position: relative;
+  right: 62px;
+}
+.compu{
+  width: 50%;
+  margin-left: 10%;
+}
+#parrafito{
+  font-size: 15px;
+  position: relative;
+  right: 60px;
+
+}
+h6{
+  font-size: 10px;
+  position: relative;
+  right: 60px;
+
+}
+span{
+  margin-left: 85px;
+ }
+.rama2{
+  font-size: 8px;
+  margin-left: 160% ;
+  position: relative;
+  right: 60px;  
+}
+.papa{
+  position: relative;
+  right: 100px;  
+}
+.card {
+  width: 120%;
+  margin-left: 110px;
+}
+.card2 {
+  width: 120%;
+
+}
+h4{
+  font-size: 35px;
+}
+.centro{
+ font-size: 10px;
+}
+}
+
+.perto footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height:50px;
+  margin-top: 24px; 
+  
+}
+
+.icono{
+  margin-left: 50px;
+}
+.iconos{
+   font-size: 10px;
+    margin-left: 15px;
+  
+ }
+
+
+
+
+@media screen and (max-width:480px){
+  #logo{
+    width: 85px;
+    margin-top: 15px;
+  }
+  .lui{
+    width: 45%;
+    margin-top: 40%;
+ 
+ }
+ header nav{
+  margin-right: 23px;
+ }
+  nav ul{
+    font-size: 8px;
+
+    }
+    .boton{
+      margin-left:7px;
+      padding:2px;
+      font-size: 10px;
+     
+   }
+
+ h2{
+  font-size: 30px;
+ }
+ .parra{
+  font-size: 12px;
+ }
+ 
+ .man1{
+   font-size:7px;
+ 
+ }
+ .man2{
+ 
+   font-size: 7px;
+ }
+
+  h3{
+    margin-left: 8%;
+    font-size: 42px;
+ }
+ h5{
+  margin-right:10;
+   font-size: 15px;
+   margin-top: 100px;
+   position: relative;
+  right: 62px;
+}
+.compu{
+  width: 50%;
+  margin-left: 10%;
+}
+#parrafito{
+  font-size: 15px;
+  position: relative;
+  right: 60px;
+
+}
+h6{
+  font-size: 10px;
+  position: relative;
+  right: 60px;
+
+}
+span{
+  margin-left: 85px;
+ }
+.rama2{
+  font-size: 8px;
+  margin-left: 160% ;
+  position: relative;
+  right: 60px;  
+}
+.papa{
+  position: relative;
+  right: 100px;  
+}
+.card {
+  width: 120%;
+  margin-left: 110px;
+}
+.card2 {
+  width: 120%;
+
+}
+h4{
+  font-size: 35px;
+}
+.centro{
+ font-size: 10px;
+}
+}
+
+.perto footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height:50px;
+  margin-top: 24px; 
+  
+}
+
+.icono{
+  margin-left: 50px;
+}
+.iconos{
+   font-size: 10px;
+    margin-left: 15px;
+  
+ }
+
+
+    
+
+
+  
+
+
+
+ 
+
+
+
+
+  
